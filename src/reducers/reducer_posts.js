@@ -4,9 +4,12 @@ import { ADD_COMMENT } from "src/actions";
 
 export default function(state = {}, action) {
 
+    console.log('action', action);
+
     switch (action.type) {
         case FETCH_POSTS: {
-            return action.payload.posts;
+            console.log('reducer:', action.payload);
+            return action.payload;
         }
         case FETCH_POST: {
             return action.payload[0];

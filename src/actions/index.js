@@ -1,4 +1,5 @@
-import fetch from 'isomorphic-fetch'
+import axios from 'axios';
+
 
 export const FETCH_POSTS = 'fetch_posts';
 export const FETCH_POST = 'fetch_post';
@@ -26,13 +27,13 @@ export const content = {
 
 export function fetchPosts() {
 
-    // const request = axios.get('../../api/db.json');
-    // console.log('request', request);
+    var request = axios.get('http://localhost:9001/posts');
 
-    return {
-        type: FETCH_POSTS,
-        payload: content
-    };
+   return (dispatch) => {
+        request.then(({data}) => {
+            dispatch({ type:FETCH_POSTS, payload: data});
+        });
+   };
 }
 
 export function fetchPost(id) {
