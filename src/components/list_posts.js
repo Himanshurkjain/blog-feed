@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from '../actions/index';
-import _ from 'lodash';
+import { fetchPosts } from '../actions';
+import { map } from 'lodash';
 import { Link } from 'react-router-dom';
 
-class ListPosts extends  Component {
+class ListPosts extends Component {
 
     componentDidMount() {
         this.props.fetchPosts();
@@ -13,7 +13,7 @@ class ListPosts extends  Component {
     renderPosts() {
         const posts = this.props.posts;
         if(posts) {
-            return _.map(posts, post => {
+            return map(posts, post => {
                 return (
                     <tr key={post.id}>
                         <td>
@@ -35,7 +35,7 @@ class ListPosts extends  Component {
         return (
             <div>
                 <h3>Feed Posts</h3>
-                <table className="table table-hover">
+                <table className="table table-hover table-striped">
                     <thead>
                     <tr>
                         <th>
