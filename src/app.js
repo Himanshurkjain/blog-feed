@@ -1,13 +1,10 @@
 /**
  * @overview Application entry point.
  */
-
 // Global application styles
 import 'src/app.scss';
 import 'src/app.scss';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-
 
 // React
 import React from 'react';
@@ -16,12 +13,14 @@ import { BrowserRouter,Switch, Route } from 'react-router-dom';
 
 import ListPosts from './components/list_posts'
 import PostDetails from './components/post_details'
-import reducers from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+import configureStore from './store/configureStore';
+
+const store = configureStore();
+
 
 render((
-    <Provider store={createStoreWithMiddleware(reducers)}>
+    <Provider store={store}>
         <BrowserRouter>
             <div>
                 <Switch>
