@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="270e2462-d929-4ea9-8bee-27348c7d2913" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/reducers/post.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/store/configureStore.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/actions/index.spec.js" afterPath="$PROJECT_DIR$/src/actions/index.spec.js" />
       <change beforePath="$PROJECT_DIR$/src/app/App.jsx" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/app/Navigation.jsx" afterPath="" />
@@ -15,6 +18,17 @@
       <change beforePath="$PROJECT_DIR$/src/app/home/home.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/app/home/index.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/app/index.js" afterPath="" />
+=======
+      <change beforePath="$PROJECT_DIR$/api/db.json" afterPath="$PROJECT_DIR$/api/db.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" afterPath="$PROJECT_DIR$/src/app.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/list_posts.js" afterPath="$PROJECT_DIR$/src/components/list_posts.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/post_details.js" afterPath="$PROJECT_DIR$/src/components/post_details.js" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducer_posts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_base.scss" afterPath="$PROJECT_DIR$/src/scss/_base.scss" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,10 +52,17 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="post_details.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/post_details.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
+=======
+      <file leaf-file-name="post_details.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/post_details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
               <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -60,11 +81,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.spec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/index.spec.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+=======
+      <file leaf-file-name="index.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/index.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="20" selection-end-column="6" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
               <folding />
             </state>
           </provider>
@@ -84,6 +113,7 @@
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
@@ -97,6 +127,21 @@
       <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/post.js">
           <provider selected="true" editor-type-id="text-editor">
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/post.js">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
             <state relative-caret-position="300">
               <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
@@ -136,11 +181,18 @@
         <option value="$PROJECT_DIR$/src/components/list_posts.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/app/home/Home.spec.jsx" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/actions/index.spec.js" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
         <option value="$PROJECT_DIR$/src/reducers/post.js" />
         <option value="$PROJECT_DIR$/src/actions/index.js" />
         <option value="$PROJECT_DIR$/src/scss/_base.scss" />
         <option value="$PROJECT_DIR$/src/components/post_details.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/actions/index.spec.js" />
+=======
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
       </list>
     </option>
   </component>
@@ -206,6 +258,21 @@
             <path>
               <item name="frontend-starter-kit-1.1.2-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-starter-kit-1.1.2-react" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-starter-kit-1.1.2-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-starter-kit-1.1.2-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-starter-kit-1.1.2-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-starter-kit-1.1.2-react" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -248,12 +315,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517331383708</updated>
+<<<<<<< HEAD
       <workItem from="1517331385065" duration="44133000" />
+=======
+      <workItem from="1517331385065" duration="43712000" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="44133000" />
+=======
+    <option name="totallyTimeSpent" value="43712000" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -311,6 +386,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/App.jsx">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -319,6 +395,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/index.js">
+=======
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -342,7 +420,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/app/about/about.html">
+=======
+    <entry file="file://$PROJECT_DIR$/src/app/home/index.js">
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -350,7 +432,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/app/about/index.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/app/about/about.html">
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -358,22 +444,55 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/api/db.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/app/about/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
           <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/api/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/store/configureStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+=======
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+=======
     <entry file="file://$PROJECT_DIR$/src/store/configureStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -384,6 +503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
         <state relative-caret-position="-32">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
@@ -397,7 +517,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <element signature="e#132#158#0" expanded="true" />
+          </folding>
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
         </state>
       </provider>
     </entry>
@@ -437,7 +563,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <element signature="e#132#158#0" expanded="true" />
+          </folding>
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
         </state>
       </provider>
     </entry>
@@ -459,6 +591,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -483,7 +616,12 @@
           <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/actions/index.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="20" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -495,11 +633,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/list_posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/post_details.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="193">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/index.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
+=======
+        <state relative-caret-position="400">
+          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+>>>>>>> d772ccd4cf7a66328f4c394b569d063b4c14ab5b
         </state>
       </provider>
     </entry>
